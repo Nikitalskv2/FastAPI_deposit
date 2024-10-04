@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  app:
+    build:
+      context: .
+    container_name: deposit-app
+    ports:
+      - "9999:7999"
+
